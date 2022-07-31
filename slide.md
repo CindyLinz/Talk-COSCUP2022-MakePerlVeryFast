@@ -19,7 +19,7 @@ CindyLinz
 ## CindyLinz
 
   + 慧邦科技 gamesofa (神來也) 技術總監 <img style='margin-left:1em;width:4em;vertical-align:bottom' src=gamesofa.png>
-  + <!-- .element: class="fragment" --> Ha<span class=fragment style=color:red;position:absolute;background-color:var(--r-background-color);margin-top:4px>ck</span>rdcore Perl 工程師
+  + <!-- .element: class="fragment" --> Ha<span class='fragment replacement' style=color:red;position:absolute;background-color:var(--r-background-color)>ck</span>rdcore Perl 工程師
   + 我也很喜歡 C 與 Haskell <!-- .element: class="fragment" -->
 
 <aside class=notes>
