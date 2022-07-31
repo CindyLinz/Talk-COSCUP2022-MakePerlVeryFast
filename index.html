@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Make Perl very fast</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/zenburn.css">
+                <style>
+                  @font-face {
+                    font-family: font;
+                    src: url(font.ttf);
+                  }
+                  .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal th {
+                    text-transform: none;
+                    font-family: font;
+                  }
+                  .reveal red {
+                    color: red;
+                  }
+                </style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                                <section
+                                  data-markdown=slide.md
+                                  data-charset=utf-8
+                                  data-separator-vertical="^--\n"
+                                  data-transition=slide
+                                ></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+                        Reveal.on('ready', function(ev){
+                        });
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize(
+                          { hash: true
+                          , center: false
+                          , width: 1240
+                          , height: 930
+                          , minScale: 0.02
+                          , maxScale: 2.0
+                          , transition: 'fade'
+                          , progress: false
+                          , controls: false
+                          // Learn about plugins: https://revealjs.com/plugins/
+                          , plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
+                          }
+                        );
+		</script>
+	</body>
+</html>
