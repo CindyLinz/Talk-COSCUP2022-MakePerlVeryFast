@@ -1192,7 +1192,7 @@ fib(90) = 4660046610375530309 in 0.0000 seconds</pre>
 
 ## 謝謝聆聽
 
-<img src=me.jpg style=width:17%>
+<img src=me.jpg>
 
   |  | 社交平台 |
   | -: | - |
